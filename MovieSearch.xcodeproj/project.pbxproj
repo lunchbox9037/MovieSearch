@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F6B2D02A25C677BD005154FC /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2D02925C677BD005154FC /* Favorite.swift */; };
+		F6B2D02E25C678E1005154FC /* FavoriteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2D02D25C678E1005154FC /* FavoriteController.swift */; };
+		F6B2D03425C720F9005154FC /* FavoriteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2D03325C720F9005154FC /* FavoriteTableViewCell.swift */; };
+		F6B2D03925C73A8A005154FC /* RemoveDuplicateElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2D03825C73A8A005154FC /* RemoveDuplicateElements.swift */; };
+		F6B2D03C25C73E66005154FC /* FavoriteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2D03B25C73E66005154FC /* FavoriteListViewController.swift */; };
+		F6B2D04925C7565C005154FC /* PresentErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B2D04825C7565C005154FC /* PresentErrorExtension.swift */; };
 		F6D286DA25C46ECC00F64860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D286D925C46ECC00F64860 /* AppDelegate.swift */; };
 		F6D286DC25C46ECC00F64860 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D286DB25C46ECC00F64860 /* SceneDelegate.swift */; };
 		F6D286E125C46ECC00F64860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D286DF25C46ECC00F64860 /* Main.storyboard */; };
@@ -15,11 +21,17 @@
 		F6D286FA25C4708100F64860 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D286F925C4708100F64860 /* SearchResultsController.swift */; };
 		F6D2870225C474B000F64860 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2870125C474B000F64860 /* SearchResults.swift */; };
 		F6D2870925C47A4900F64860 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2870825C47A4900F64860 /* NetworkError.swift */; };
-		F6D2870F25C482EC00F64860 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2870E25C482EC00F64860 /* MovieListTableViewController.swift */; };
-		F6D2871225C488C900F64860 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2871125C488C900F64860 /* MovieTableViewCell.swift */; };
+		F6D2870F25C482EC00F64860 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2870E25C482EC00F64860 /* SearchResultsTableViewController.swift */; };
+		F6D2871225C488C900F64860 /* SearchResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D2871125C488C900F64860 /* SearchResultsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F6B2D02925C677BD005154FC /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		F6B2D02D25C678E1005154FC /* FavoriteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteController.swift; sourceTree = "<group>"; };
+		F6B2D03325C720F9005154FC /* FavoriteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTableViewCell.swift; sourceTree = "<group>"; };
+		F6B2D03825C73A8A005154FC /* RemoveDuplicateElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicateElements.swift; sourceTree = "<group>"; };
+		F6B2D03B25C73E66005154FC /* FavoriteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteListViewController.swift; sourceTree = "<group>"; };
+		F6B2D04825C7565C005154FC /* PresentErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentErrorExtension.swift; sourceTree = "<group>"; };
 		F6D286D625C46ECC00F64860 /* MovieSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D286D925C46ECC00F64860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6D286DB25C46ECC00F64860 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,8 +42,8 @@
 		F6D286F925C4708100F64860 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 		F6D2870125C474B000F64860 /* SearchResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResults.swift; sourceTree = "<group>"; };
 		F6D2870825C47A4900F64860 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
-		F6D2870E25C482EC00F64860 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
-		F6D2871125C488C900F64860 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		F6D2870E25C482EC00F64860 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		F6D2871125C488C900F64860 /* SearchResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,8 @@
 		F6D286F325C46F1A00F64860 /* Custom Cell */ = {
 			isa = PBXGroup;
 			children = (
-				F6D2871125C488C900F64860 /* MovieTableViewCell.swift */,
+				F6D2871125C488C900F64860 /* SearchResultsTableViewCell.swift */,
+				F6B2D03325C720F9005154FC /* FavoriteTableViewCell.swift */,
 			);
 			path = "Custom Cell";
 			sourceTree = "<group>";
@@ -114,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F6D2870125C474B000F64860 /* SearchResults.swift */,
+				F6B2D02925C677BD005154FC /* Favorite.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,7 +144,8 @@
 		F6D286F725C46F4500F64860 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				F6D2870E25C482EC00F64860 /* MovieListTableViewController.swift */,
+				F6D2870E25C482EC00F64860 /* SearchResultsTableViewController.swift */,
+				F6B2D03B25C73E66005154FC /* FavoriteListViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -139,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				F6D286F925C4708100F64860 /* SearchResultsController.swift */,
+				F6B2D02D25C678E1005154FC /* FavoriteController.swift */,
 			);
 			path = "Model Controllers";
 			sourceTree = "<group>";
@@ -147,6 +163,8 @@
 			isa = PBXGroup;
 			children = (
 				F6D2870825C47A4900F64860 /* NetworkError.swift */,
+				F6B2D03825C73A8A005154FC /* RemoveDuplicateElements.swift */,
+				F6B2D04825C7565C005154FC /* PresentErrorExtension.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -221,12 +239,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6D2870F25C482EC00F64860 /* MovieListTableViewController.swift in Sources */,
+				F6D2870F25C482EC00F64860 /* SearchResultsTableViewController.swift in Sources */,
+				F6B2D03425C720F9005154FC /* FavoriteTableViewCell.swift in Sources */,
+				F6B2D04925C7565C005154FC /* PresentErrorExtension.swift in Sources */,
 				F6D286FA25C4708100F64860 /* SearchResultsController.swift in Sources */,
-				F6D2871225C488C900F64860 /* MovieTableViewCell.swift in Sources */,
+				F6D2871225C488C900F64860 /* SearchResultsTableViewCell.swift in Sources */,
 				F6D286DA25C46ECC00F64860 /* AppDelegate.swift in Sources */,
+				F6B2D02E25C678E1005154FC /* FavoriteController.swift in Sources */,
+				F6B2D03925C73A8A005154FC /* RemoveDuplicateElements.swift in Sources */,
+				F6B2D03C25C73E66005154FC /* FavoriteListViewController.swift in Sources */,
 				F6D2870225C474B000F64860 /* SearchResults.swift in Sources */,
 				F6D286DC25C46ECC00F64860 /* SceneDelegate.swift in Sources */,
+				F6B2D02A25C677BD005154FC /* Favorite.swift in Sources */,
 				F6D2870925C47A4900F64860 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
